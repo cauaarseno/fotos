@@ -13,5 +13,5 @@ use App\Http\Controllers\PhotoController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/', [PhotoController::class, 'index']);
 Route::get('/photo', [PhotoController::class, 'photo']);
