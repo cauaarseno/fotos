@@ -14,4 +14,4 @@ use App\Http\Controllers\PhotoController;
 |
 */
 Route::get('/index', [PhotoController::class, 'index']);
-Route::get('/photo', [PhotoController::class, 'photo']);
+Route::post('/photo', [PhotoController::class, 'photo']);
